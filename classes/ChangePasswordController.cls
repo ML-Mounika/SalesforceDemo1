@@ -5,7 +5,7 @@ public with sharing class ChangePasswordController {
     
     public PageReference changePassword()
     {
-        // Simple Verification.
+        // Simple Verification. Verified.
         return Site.changePassword(newPassword, verifyNewPassword, oldPassword);
     }
     public ChangePasswordController() {}
